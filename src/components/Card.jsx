@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 
-const Card = ({ title, src, text, btn, className, color }) => {
+const Card = ({ title, src, text, btn, className, color, onClick }) => {
     const [isHovered, setIsHovered] = useState(false);
     const handleHover = () => {
         setIsHovered(true);
@@ -42,7 +42,7 @@ const Card = ({ title, src, text, btn, className, color }) => {
             <p className="my-3">
                 {text}
             </p>
-            {btn && <button className="btn card-btn d-inline-block">
+            {btn && <button onClick={onClick} className="btn card-btn d-inline-block">
                 {btn}
             </button>}
         </div>

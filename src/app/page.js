@@ -5,6 +5,7 @@ import { FacebookLoginButton, GoogleLoginButton } from "react-social-login-butto
 import SocialButton from '@/components/SocialButton';
 import Card from '@/components/Card';
 import Image from 'next/image'
+import { useRouter } from 'next/navigation';
 
 export const cards = [
   {
@@ -38,6 +39,8 @@ export const cards = [
 ]
 
 export default function Home() {
+  const router = useRouter()
+
   return (
     <main className="">
 
@@ -86,6 +89,7 @@ export default function Home() {
           btn={"Add New"}
           src={"add"}
           className={"text-black"}
+          onClick={() => router.push("/add")}
         />
       </div>
 
@@ -104,7 +108,7 @@ export default function Home() {
 
 
       <div className="section w-[80%] m-auto p-5">
-        <h2>Your Hobby, Your Community...</h2>
+        <h2 className="py-3">Your Hobby, Your Community...</h2>
         <button className="btn card-btn">
           Get started
         </button>

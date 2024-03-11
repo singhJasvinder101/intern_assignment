@@ -9,7 +9,7 @@ const page = () => {
 
     return (
         <div className="py-24 d-flex flex-col align-items-center justify-content-center">
-            <h2 className="d-flex">
+            <h2 className="d-flex align-items-center">
                 <Image
                     src="/assets/add.svg"
                     width={34}
