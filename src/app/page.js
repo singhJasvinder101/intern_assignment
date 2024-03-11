@@ -46,14 +46,14 @@ export default function Home() {
 
       <div className="home">
         <section className="hero w-[90%] mx-auto row d-flex align-items-center justify-content-around">
-          <div className="hero-section col-lg-6 col-11">
+          <div className="hero-section col-lg-6">
             <h2 className="my-3">Explore your hobby or passion</h2>
             <p>Sign-in to interact with a community of fellow hobbyists and an eco-system of experts, teachers, suppliers, classes, workshops, and places to practice, participate or perform. Your hobby may be about visual or performing arts, sports, games, gardening, model making, cooking, indoor or outdoor activities…</p>
             <p>If you are an expert or a seller, you can Add your Listing and promote yourself, your students, products,  services or events.  Hop on your hobbyhorse and enjoy the ride.</p>
           </div>
 
           <div className="sign-up-section col-11 col-lg-4 col-md-8">
-            <h8>Sign In</h8>
+            <h6>Sign In</h6>
             <div className="h-1 bg-[#8449a0] w-12 rounded-lg  "></div>
 
             <div className="social-buttons py-4">

@@ -404,9 +404,7 @@ li span {
   display: flex;
 }
 
-.hero-section {
-  width: 50%;
-}
+
 
 .social-btn {
   border: 2px solid #8449a0 !important;
@@ -435,6 +433,7 @@ li span {
 
   .hero-section {
     margin-bottom: 3rem;
+    width: 90.66% !important;
   }
 
   .cards-section {
@@ -682,15 +681,15 @@ h6 {
 /* Responsive styling for heading tags */
 @media (max-width: 768px) {
   h1 {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 
   h2 {
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
   }
 
   h3 {
-    font-size: 1.6rem;
+    font-size: 1.6rem !important;
   }
 
   h4 {
@@ -710,22 +709,22 @@ h6 {
   }
 
   h8 {
-    font-size: 0.8rem;
+    font-size: 0.8rem !important;
   }
 }
 
 /* Responsive styling for heading tags on smaller screens */
 @media (max-width: 480px) {
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
   }
 
   h2 {
-    font-size: 1.6rem;
+    font-size: 1.6rem !important;
   }
 
   h3 {
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
   }
 
   h4 {
@@ -745,6 +744,6 @@ h6 {
   }
 
   h8 {
-    font-size: 0.8rem;
+    font-size: 0.8rem !important;
   }
 }
