@@ -665,8 +665,6 @@ li span {
 }
 
 
-/* headings css */
-/* Default styling for heading tags */
 h1,
 h2,
 h3,
@@ -676,6 +674,40 @@ h6 {
   font-weight: bold;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
+}
+
+@media (min-width: 480px) {
+  h1 {
+    font-size: 2.5rem !important;
+  }
+
+  h2 {
+    font-size: 2rem !important;
+  }
+
+  h3 {
+    font-size: 1.8rem !important;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+  }
+
+  h5 {
+    font-size: 1.4rem;
+  }
+
+  h6 {
+    font-size: 1.2rem;
+  }
+
+  h7 {
+    font-size: 1rem;
+  }
+
+  h8 {
+    font-size: 0.9rem !important;
+  }
 }
 
 /* Responsive styling for heading tags */
