@@ -664,3 +664,87 @@ li span {
   height: 302px;
   object-fit: cover;
 }
+
+
+/* headings css */
+/* Default styling for heading tags */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Responsive styling for heading tags */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  h4 {
+    font-size: 1.4rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  h7 {
+    font-size: 0.9rem;
+  }
+
+  h8 {
+    font-size: 0.8rem;
+  }
+}
+
+/* Responsive styling for heading tags on smaller screens */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  h5 {
+    font-size: 1.1rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  h7 {
+    font-size: 0.9rem;
+  }
+
+  h8 {
+    font-size: 0.8rem;
+  }
+}
